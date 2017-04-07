@@ -4,7 +4,7 @@
 |
 | Usage   : Accela Global Includes.  Required for all master scripts.
 |
-| Notes   : 4/7/2017 nalbert - added eval of INCLUDES_CUSTOM_FEES
+| Notes   :
 |
 /------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------/
@@ -173,4 +173,3 @@ if(capId != null){
 }
 
 eval(getScriptText("INCLUDES_CUSTOM_GLOBALS"));
-eval(getScriptText("INCLUDES_CUSTOM_FEES"));
